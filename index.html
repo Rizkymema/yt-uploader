@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>yt-uploader</title>
+<style>
+  :root { --bg:#ffffff; --fg:#111111; --muted:#555555; --line:#e5e5e5; --link:#0b57d0; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#111111; --fg:#f2f2f2; --muted:#aaaaaa; --line:#2a2a2a; --link:#8ab4f8; } }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.65 system-ui,-apple-system,Segoe UI,Roboto,sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:48px 16px 64px; }
+  h1 { font-size:32px; margin:0 0 4px; }
+  h2 { font-size:19px; margin:32px 0 8px; }
+  .muted { color:var(--muted); }
+  a { color:var(--link); }
+  footer { margin-top:48px; padding-top:16px; border-top:1px solid var(--line); font-size:14px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>yt-uploader</h1>
+  <p class="muted">A personal desktop video uploader for YouTube</p>
+
+  <p>yt-uploader is a small desktop application used to upload videos to the developer's own YouTube channel. It runs on the user's computer and uses the official YouTube Data API v3.</p>
+
+  <h2>What it does</h2>
+  <ul>
+    <li>Uploads a video file you choose to your YouTube channel.</li>
+    <li>Sets the title, description, tags, category and privacy status (private, unlisted or public).</li>
+    <li>Asks only for the <em>youtube.upload</em> permission – it cannot read or delete your existing videos.</li>
+  </ul>
+
+  <h2>Your data</h2>
+  <p>Videos go directly from your computer to YouTube. The developer does not run a server for this app and does not collect your data. Read the full <a href="privacy.html">Privacy Policy</a>.</p>
+
+  <p>This app uses YouTube API Services. See the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a> and the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+
+  <footer>
+    © 2026 Rizky Mema ·
+    <a href="privacy.html">Privacy Policy</a> ·
+    <a href="mailto:rhizkymema@gmail.com">rhizkymema@gmail.com</a>
+  </footer>
+</main>
+</body>
+</html>
